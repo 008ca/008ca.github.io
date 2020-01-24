@@ -4,7 +4,7 @@
     <title>圆切割问题的推导</title>
     <url>/2020/01/24/%E5%9C%86%E5%88%87%E5%89%B2%E9%97%AE%E9%A2%98%E7%9A%84%E6%8E%A8%E5%AF%BC/</url>
     <content><![CDATA[<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>在一个圆上取N个点，两两连接，可以将圆最多分成多少个区域。也就说不允许出现三线共点的情况。</p>
-<h1 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h1><p>通过组合可知道，在n个点中，有<br><img src="../image/图片1.png"/>个线段。<br>因为每2条线段可以生成一个交叉点。故在图中将有<img src="../image/图片2.png"/>个点。<br>引入新图<br>圆上的n个点以及圆弧加上新生成的点以及之间的线段，组成一个新图，有n+<img src="../image/图片1.png"/>个点。在2条相交线段中，每有一个点会多出2条线段，故该图有n+<img src="../image/图片1.png"/>+2<img src="../image/图片2.png"/>个边。<br>根据图论关系有V-E+F=2;V为点数，E为边数，F为所分区域数加外围区域；<br>故在此图中F=1+&lt;../img src=”image/图片1.png”/&gt;+&lt;../img src=”image/图片2.png”/&gt;；<br>证毕。</p>
+<h1 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h1><p>通过组合可知道，在n个点中，有<br><img src="image/图片1.png"/>个线段。<br>因为每2条线段可以生成一个交叉点。故在图中将有<img src="image/图片2.png"/>个点。<br>引入新图<br>圆上的n个点以及圆弧加上新生成的点以及之间的线段，组成一个新图，有n+<img src="image/图片1.png"/>个点。在2条相交线段中，每有一个点会多出2条线段，故该图有n+<img src="../image/图片1.png"/>+2<img src="../image/图片2.png"/>个边。<br>根据图论关系有V-E+F=2;V为点数，E为边数，F为所分区域数加外围区域；<br>故在此图中F=1+<img src="image/图片1.png"/>+<img src="image/图片2.png"/>；<br>证毕。</p>
 ]]></content>
       <tags>
         <tag>图论</tag>
