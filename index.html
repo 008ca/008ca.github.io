@@ -211,6 +211,66 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/24/%E5%9C%86%E5%88%87%E5%89%B2%E9%97%AE%E9%A2%98%E7%9A%84%E6%8E%A8%E5%AF%BC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/lovely_girl.jpg">
+      <meta itemprop="name" content="008ca">
+      <meta itemprop="description" content="相信努力总能有收获">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学无止境">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/24/%E5%9C%86%E5%88%87%E5%89%B2%E9%97%AE%E9%A2%98%E7%9A%84%E6%8E%A8%E5%AF%BC/" class="post-title-link" itemprop="url">圆切割问题的推导</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-24 09:39:53 / 修改时间：15:29:46" itemprop="dateCreated datePublished" datetime="2020-01-24T09:39:53+08:00">2020-01-24</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>在一个圆上取N个点，两两连接，可以将圆最多分成多少个区域。也就说不允许出现三线共点的情况。</p>
+<h1 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h1><p>通过组合可知道，在n个点中，有<br><img src="image/图片1.png"/>个线段。<br>因为每2条线段可以生成一个交叉点。故在图中将有<img src="image/图片2.png"/>个点。<br>引入新图<br>圆上的n个点以及圆弧加上新生成的点以及之间的线段，组成一个新图，有n+<img src="image/图片1.png"/>个点。在2条相交线段中，每有一个点会多出2条线段，故该图有n+<img src="image/图片1.png"/>+2<img src="image/图片2.png"/>个边。<br>根据图论关系有V-E+F=2;V为点数，E为边数，F为所分区域数加外围区域；<br>故在此图中F=1+<img src="image/图片1.png"/>+<img src="image/图片2.png"/>；<br>证毕。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/16/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -421,7 +481,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -432,7 +492,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
